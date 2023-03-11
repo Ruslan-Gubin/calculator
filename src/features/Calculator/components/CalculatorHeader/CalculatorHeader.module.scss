@@ -1,0 +1,13 @@
+.root {
+  font-size: 14px;
+  line-height: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  .nav__buttons {
+    display: flex;
+    border-radius: 5px;
+    background: #f3f4f6;
+    width: 240px;
+  }
+}

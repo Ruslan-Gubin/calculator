@@ -1,0 +1,8 @@
+.button__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .button__item {
+    width: 52px;
+  }
+}

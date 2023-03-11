@@ -1,0 +1,39 @@
+.button {
+  background: #ffffff;
+  width: 100%;
+  border-radius: 6px;
+  height: 48px;
+  padding: 16px 0px 17px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+  text-align: center;
+  border: 1px solid #e2e3e581;
+  &:hover {
+    border: 2px solid #5D5FEF;
+  }
+  &:active {
+    background: #5D5FEF;
+    color: white;
+  }
+}
+
+.active {
+  background: #5D5FEF;
+  color: white;
+}
+
+.button__active {
+  background: #ffffff;
+  width: 100%;
+  border-radius: 6px;
+  height: 48px;
+  padding: 16px 0px 17px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+  text-align: center;
+  border: 1px solid #e2e3e581;
+}

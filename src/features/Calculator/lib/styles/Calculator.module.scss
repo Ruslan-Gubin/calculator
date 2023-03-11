@@ -1,0 +1,17 @@
+.root {
+  padding-top: 38px;
+  width: calc(240px + 240px + 58px);
+  margin: 0 auto;
+
+  & .content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+
+.board {
+  height: 800px;
+  
+}
