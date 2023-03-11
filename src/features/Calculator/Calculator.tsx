@@ -31,7 +31,7 @@ const Calculator = () => {
     operator: "",
     secondNumber: [],
   });
-console.log(displayNumer.firstNumber, displayNumer.operator, displayNumer.secondNumber);
+
   const [textDisplay, setTextDisplay] = useState("0");
   const [stageCalculator, setStageCalculator] = useState<
     "firstNum" | "secondNum"
